@@ -14,6 +14,11 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php _e('Skip to content', 'pleiadesmoon'); ?></a>
 		<!-- HEADER -->
 		<header id="masthead" class="site-header" role="banner">
+			<div class="header-top">
+				<div class="wrap">
+					<p>This is the header TOP</p>
+				</div><!-- class="wrap" -->
+			</div><!-- class="header-top" -->
 			<?php get_template_part('template-parts/header/header', 'image'); ?>
 			<?php if (has_nav_menu('top')) : ?>
 				<div class="navigation-top">

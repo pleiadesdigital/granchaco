@@ -239,7 +239,6 @@ add_action('wp_head', 'pleiadesmoon_colors_css_wrap');
 ********************************************************/
 
 function pleiadesmoon_scripts() {
-
 	// MAIN CSS style.css
 	wp_enqueue_style('pleiadesmoon-style', get_stylesheet_uri());
 	// Fontawesome

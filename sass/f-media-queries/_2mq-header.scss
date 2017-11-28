@@ -1,22 +1,66 @@
 @include breakpoint($movil) { //20em 320px
 
+	// SITE HEADER
+	.site-header {
+		background-color: $white;
+
+		// header top
+		.header-top {
+			display: block;
+			height: 30px;
+			background-color: $palewhite;
+			padding-top: 5px;
+			p {
+				text-align: right;
+			} //p
+		} //.header-top
+		// site branding
+		.site-branding {
+			padding: 1em 0px 0.5em;
+			img {
+				max-width: 180px !important;
+				height: auto;
+			} //img
+		} //.site-branding
+	} //.site-header
+
+
 } //breakpoint($movil) 20em 320px
 
 
 @include breakpoint($tablet) { //30em 480px
 	/* Site Branding */
 		.site-branding {
-		padding: 3em 0;
+		// padding: 3em 0;
 	}
 } //breakpoint($tablet) 30em 480px
 
 
 @include breakpoint($laptop) { //48em 768px
 
-	// SITE BRANDING
-	.site-branding {
-		margin-bottom: 0;
-	}
+	// SITE HEADER
+	.site-header {
+
+		// header top
+		.header-top {
+			.wrap {
+				padding-left: 1em;
+			}
+		} //.header-top
+
+		// site branding
+		.site-branding {
+			margin-bottom: 60px !important;
+			.wrap {
+				padding-left: 2em;
+			} //.wrap
+			img {
+
+			} //img
+		} //.site-branding
+
+	} //.site-header
+
 	.has-header-image.pleiadesmoon-front-page .site-branding,
 	.has-header-video.pleiadesmoon-front-page .site-branding,
 	.has-header-image.home.blog .site-branding,
