@@ -16,11 +16,14 @@
 		} //.header-top
 		// site branding
 		.site-branding {
-			padding: 1em 0px 0.5em;
-			img {
-				max-width: 180px !important;
-				height: auto;
-			} //img
+			padding: 1em 0px 0px;
+			a {
+				padding-bottom: 0px;
+				img {
+					max-width: 180px !important;
+					height: auto;
+				} //img
+			} //a
 		} //.site-branding
 	} //.site-header
 
@@ -37,30 +40,7 @@
 
 
 @include breakpoint($laptop) { //48em 768px
-
-	// SITE HEADER
-	.site-header {
-
-		// header top
-		.header-top {
-			.wrap {
-				padding-left: 1em;
-			}
-		} //.header-top
-
-		// site branding
-		.site-branding {
-			margin-bottom: 60px !important;
-			.wrap {
-				padding-left: 2em;
-			} //.wrap
-			img {
-
-			} //img
-		} //.site-branding
-
-	} //.site-header
-
+	// ORIGINAL STYLES
 	.has-header-image.pleiadesmoon-front-page .site-branding,
 	.has-header-video.pleiadesmoon-front-page .site-branding,
 	.has-header-image.home.blog .site-branding,
@@ -120,11 +100,88 @@
 		font-size: 16px;
 		font-size: 1rem;
 	}
+
+	// RO SITE HEADER
+	.site-header {
+		// header top
+		.header-top {
+			.wrap {
+				padding-left: 1em;
+				padding-right: 2em;
+			}
+		} //.header-top
+
+		// site branding
+		.site-branding {
+			margin-bottom: 60px !important;
+			.wrap {
+				padding-left: 1.5em;
+				padding-right: 2em;
+			} //.wrap
+			img {
+
+			} //img
+
+			// SITE MOTO
+			.site-moto {
+				width: 70%;
+				float: right;
+				padding-top: 0.5em;
+				.site-moto-para { //p
+					margin-bottom: 0px;
+					line-height: 1.4;
+					text-align: right;
+					font-family: $title;
+					font-size: 16px;
+					font-size: 1rem;
+					font-weight: $light;
+					text-transform: uppercase;
+					@include single-text-shadow(1px, 0px, 0px, true, $snow);
+					color: $darkgreen;
+				} //.site-moto-para
+			} //.site-moto
+
+		} //.site-branding
+
+	} //.site-header
+
+
 } //breakpoint($laptop) 48em 768px
 
 
 @include breakpoint($desktop) { //67em 1072px
 
+	// RO SITE HEADER
+	.site-header {
+		// header top
+		.header-top {
+			.wrap {
+
+			}
+		} //.header-top
+
+		// site branding
+		.site-branding {
+
+			.wrap {
+
+			} //.wrap
+			img {
+
+			} //img
+
+			// SITE MOTO
+			.site-moto {
+				width: 60%;
+				.site-moto-para { //p
+					font-size: 18px;
+					font-size: 1.125rem;
+				} //.site-moto-para
+			} //.site-moto
+
+		} //.site-branding
+
+	} //.site-header
 } // breakpoint($desktop) 67em 1072px
 
 

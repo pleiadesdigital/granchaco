@@ -3,6 +3,13 @@
 <div class="site-branding">
 	<div class="wrap">
 		<?php the_custom_logo(); ?>
+
+		<!-- CUSTOM SITE MOTO -->
+		<div class="site-moto">
+			<p class="site-moto-para">Inclusión económica para el goce de derechos de los pueblos indígenas vulnerables del <strong>GRAN CHACO</strong></p>
+		</div><!-- class="site-moto" -->
+
+		<!-- SITE TITLE AND TAGLINE -->
 		<div class="site-branding-text">
 			<?php if (is_front_page()) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>

@@ -1,20 +1,9 @@
 @include breakpoint($movil) { //20em 320px
+
+	// VIDEO
 	.video-background {
-		/* display: block;
-		line-height: 1;
-		padding: 0px;
-		margin: 0px;
-		height: 500px;
-		@include breakpoint(1170px) {
-			height: 600px;
-		} */
 		.video-foreground {
-			/* line-height: 1;
-			margin: 0px;
-			padding: 0px;
-			position: relative;
-			width: 100%;
-			height: 100%; */
+			height: 100%;
 			position: relative;
 	    width: 100%;
 	    height: 0;
@@ -26,14 +15,56 @@
 				width: 100%;
 				height: 100%;
 				background-size: cover;
-			}
-		}
-	}
+			} //.video
+		} //.video-foreground
+	} //.video-background
+
+	// EL PROYECTO
+	.fp-proyecto {
+		background-color: $lightgreen;
+		padding: 2em 1em;
+		.fp-proyecto-wrap {
+			@include container();
+		} //.fp-proyecto-wrap
+	} //.fp-proyecto
+
+	// NOTICIAS
+	.fp-noticias {
+		background-color: $olive;
+		padding: 2em 1em;
+		.fp-noticias-wrap {
+			@include container();
+		} //.fp-noticias-wrap
+	} //.fp-noticias
+
+		// TESTIMONIOS
+	.fp-testimonios {
+		background-color: $midgreen;
+		padding: 2em 1em;
+		.fp-testimonios-wrap {
+			@include container();
+		} //.fp-testimonios-wrap
+	} //.fp-testimonios
+
+	// EJECUTORES PROYECTO
+	.fp-ejecutores {
+		background-color: $red;
+		padding: 2em 1em;
+		.fp-ejecutores-wrap {
+			@include container();
+		} //.fp-ejecutores-wrap
+	} //.fp-ejecutores
+
+	// INFORMACIÓN FINAL
+	.fp-infofinal {
+		background-color: $palewhite;
+		padding: 2em 1em;
+		.fp-infofinal-wrap {
+			@include container();
+		} //.fp-infofinal-wrap
+	} //.fp-infofinal
 
 
-	.site-footer {
-		// display: none;
-	}
 } //breakpoint($movil) 20em 320px
 
 
@@ -53,6 +84,42 @@
 	.panel-content .recent-posts .entry-header {
 		margin-bottom: 0;
 	}
+
+	// EL PROYECTO
+	.fp-proyecto {
+		background-color: $lightgreen;
+		.fp-proyecto-wrap {
+			@include container();
+		} //.fp-proyecto-wrap
+	} //.fp-proyecto
+
+	// NOTICIAS
+	.fp-noticias {
+		.fp-noticias-wrap {
+
+		} //.fp-noticias-wrap
+	} //.fp-noticias
+
+		// TESTIMONIOS
+	.fp-testimonios {
+		.fp-testimonios-wrap {
+
+		} //.fp-testimonios-wrap
+	} //.fp-testimonios
+
+	// EJECUTORES PROYECTO
+	.fp-ejecutores {
+		.fp-ejecutores-wrap {
+
+		} //.fp-ejecutores-wrap
+	} //.fp-ejecutores
+
+	// INFORMACIÓN FINAL
+	.fp-infofinal {
+		.fp-infofinal-wrap {
+
+		} //.fp-infofinal-wrap
+	} //.fp-infofinal
 
 } //breakpoint($tablet) 30em 480px
 
@@ -130,15 +197,126 @@
 		font-size: 1.625rem;
 	}
 
+	// EL PROYECTO
+	.fp-proyecto {
+		.fp-proyecto-wrap {
+
+		} //.fp-proyecto-wrap
+	} //.fp-proyecto
+
+	// NOTICIAS
+	.fp-noticias {
+		.fp-noticias-wrap {
+
+		} //.fp-noticias-wrap
+	} //.fp-noticias
+
+		// TESTIMONIOS
+	.fp-testimonios {
+		.fp-testimonios-wrap {
+
+		} //.fp-testimonios-wrap
+	} //.fp-testimonios
+
+	// EJECUTORES PROYECTO
+	.fp-ejecutores {
+		.fp-ejecutores-wrap {
+
+		} //.fp-ejecutores-wrap
+	} //.fp-ejecutores
+
+	// INFORMACIÓN FINAL
+	.fp-infofinal {
+		.fp-infofinal-wrap {
+
+		} //.fp-infofinal-wrap
+	} //.fp-infofinal
+
+
 
 } //breakpoint($laptop) 48em 768px
 
 
 @include breakpoint($desktop) { //67em 1072px
 
+	// EL PROYECTO
+	.fp-proyecto {
+		.fp-proyecto-wrap {
+
+		} //.fp-proyecto-wrap
+	} //.fp-proyecto
+
+	// NOTICIAS
+	.fp-noticias {
+		.fp-noticias-wrap {
+
+		} //.fp-noticias-wrap
+	} //.fp-noticias
+
+		// TESTIMONIOS
+	.fp-testimonios {
+		.fp-testimonios-wrap {
+
+		} //.fp-testimonios-wrap
+	} //.fp-testimonios
+
+	// EJECUTORES PROYECTO
+	.fp-ejecutores {
+		.fp-ejecutores-wrap {
+
+		} //.fp-ejecutores-wrap
+	} //.fp-ejecutores
+
+	// INFORMACIÓN FINAL
+	.fp-infofinal {
+		.fp-infofinal-wrap {
+
+		} //.fp-infofinal-wrap
+	} //.fp-infofinal
+
 } // breakpoint($desktop) 67em 1072px
 
 
 @include breakpoint($largedesk) { //79em 1264px
 
+	// EL PROYECTO
+	.fp-proyecto {
+		.fp-proyecto-wrap {
+
+		} //.fp-proyecto-wrap
+	} //.fp-proyecto
+
+	// NOTICIAS
+	.fp-noticias {
+		.fp-noticias-wrap {
+
+		} //.fp-noticias-wrap
+	} //.fp-noticias
+
+		// TESTIMONIOS
+	.fp-testimonios {
+		.fp-testimonios-wrap {
+
+		} //.fp-testimonios-wrap
+	} //.fp-testimonios
+
+	// EJECUTORES PROYECTO
+	.fp-ejecutores {
+		.fp-ejecutores-wrap {
+
+		} //.fp-ejecutores-wrap
+	} //.fp-ejecutores
+
+	// INFORMACIÓN FINAL
+	.fp-infofinal {
+		.fp-infofinal-wrap {
+
+		} //.fp-infofinal-wrap
+	} //.fp-infofinal
+
+
 } //breakpoint($largedesk) 79em 1264px
+
+
+
+

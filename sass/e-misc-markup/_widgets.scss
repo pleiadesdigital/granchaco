@@ -34,11 +34,30 @@ h2.widget-title {
 	margin: 0;
 }
 
+// RO WIDGET CUSTOMIZE
 .widget ul li {
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
+	border-bottom: 1px solid $midgrey;
+	border-top: 1px solid $midgrey;
 	padding: 0.5em 0;
-}
+	a {
+		color: $palewhite;
+		box-shadow: none !important;
+		&:hover,
+		&:focus {
+			color: $lightgreen !important;
+		} //&:hover, &:focus
+	} //a
+} //.widget ul li
+.footer-top {
+
+	.widget-title {
+		color: $midgreen;
+	} //.widget-title
+	.textwidget {
+		color: $palewhite;
+	} //.widget-text
+
+} //.footer-top
 
 .widget ul li + li {
 	margin-top: -1px;

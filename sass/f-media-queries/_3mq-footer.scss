@@ -1,5 +1,47 @@
 @include breakpoint($movil) { //20em 320px
 
+	.site-footer {
+
+		// Footer Top
+		.footer-top {
+			background-color: $palecarbon;
+			.footer-top-wrap {
+				@include container();
+				padding: 1em 0px 0px 2em;
+				.widget-area {
+					h1, h2, h3, h4, h5, h6 {
+						color: $midgreen;
+					} //headings
+					display: flex;
+					flex-direction: row;
+					.widget-column {
+					}
+				}
+			} //.footer-top-wrap
+		} //.footer-top
+
+		// Footer Bottom
+		.footer-bottom {
+			background-color: $paleblack;
+			.footer-bottom-wrap {
+				@include container();
+				padding: 2em 2em 0px;
+				// Social Navigation
+				.social-navigation {
+
+				} //.social-navigation
+
+				// Site Info
+				.site-info {
+					p {
+						color: $palewhite;
+					} //p
+				} //.site-info
+			} //.footer-bottom-wrapper
+		} //.footer-bottom
+
+	} //.site-footer
+
 } //breakpoint($movil) 20em 320px
 
 
@@ -16,7 +58,7 @@
 		font-size: 14px;
 		font-size: 0.875rem;
 		line-height: 1.6;
-		margin-top: 3em;
+		// margin-top: 3em;
 	}
 	.site-footer .widget-column.footer-widget-1 {
 		float: left;
@@ -25,7 +67,15 @@
 	.site-footer .widget-column.footer-widget-2 {
 		float: right;
 		width: 58%;
+		display: flex;
+		justify-content: space-between;
+		.widget {
+			width: 45%;
+			margin-right: 20px;
+		}
 	}
+
+
 	.social-navigation {
 		clear: left;
 		float: left;

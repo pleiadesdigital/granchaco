@@ -193,25 +193,36 @@
 	.site-header {
 		// navigation top
 		.navigation-top {
-			// background-color: $lightgreen;
 			border-top: 1px solid $palewhite;
 			border-bottom: none;
+			padding: 0px;
+			height: 55px;
 			.wrap {
 				// padding: 5px 3em 3em 5px;
-				padding-top: 5px;
-				padding-bottom: 5px;
+				padding-top: 1em;
+				padding-bottom: 1em;
 			} //.wrap
 
 			.main-navigation > div > ul {
 				display: flex;
 				flex-direction: row;
 				justify-content: space-between;
-				flex-wrap: wrap;
+				flex-wrap: no-wrap;
 			}
 			.main-navigation li {
 				border: 0;
 				a {
 					text-transform: uppercase;
+					text-align: center;
+					line-height: 1;
+					padding: 5px 0px;
+					border-bottom: 3px solid transparent;
+					@include single-transition();
+					@include transition-duration(0.3s);
+					&:hover,
+					&:focus {
+						border-bottom: 3px solid $darkgreen;
+					} //&:hover, &:focus
 				} //a
 			} //.main-navigation li
 		} //.navigation-top
