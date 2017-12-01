@@ -16,7 +16,7 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div class="header-top">
 				<div class="wrap">
-					<p>This is the header TOP</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+13174562564">317-456-2564</a></p>
 				</div><!-- class="wrap" -->
 			</div><!-- class="header-top" -->
 			<?php get_template_part('template-parts/header/header', 'image'); ?>

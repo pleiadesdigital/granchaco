@@ -9,9 +9,18 @@
 			display: block;
 			height: 30px;
 			background-color: $palewhite;
-			padding-top: 5px;
+			// padding-top: 5px;
 			p {
 				text-align: right;
+				display: block;
+				position: relative;
+				padding-top: 3px;
+				.fa-phone {
+					position: absolute;
+					top: 7px;
+					right: 88px;
+					display: inline-block;
+				}
 			} //p
 		} //.header-top
 		// site branding

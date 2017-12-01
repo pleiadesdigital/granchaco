@@ -1,7 +1,7 @@
 @include breakpoint($movil) { //20em 320px
 
 	.site-footer {
-
+		border-top: none;
 		// Footer Top
 		.footer-top {
 			background-color: $palecarbon;
