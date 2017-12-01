@@ -1,0 +1,96 @@
+@include breakpoint($movil) { //20em 320px
+  // GENERIC
+    .page-template-page-canvasfree {
+    .site-content {
+      padding-top: 0px;
+    }
+    #primary {
+      max-width: 100% !important;
+    }
+    // CANVAS part
+    .page-canvas {
+      // ENTRY HEADER
+      .entry-header {
+        padding-bottom: 0px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        .entry-header-wrap {
+          padding-bottom: 0px;
+          line-height: 1;
+          @include container();
+          position: relative;
+          .featured-image {
+            img {
+
+            } //img
+          } //.featured-image
+          .entry-title {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            position: absolute;
+            right: 0.5em;
+            bottom: 1em;
+            font-size: 40px;
+            font-size: 2.5rem;
+            color: $white;
+            @include single-text-shadow(1px, 1px, 0px, false, $paleblack);
+          } //.entry-title
+        } //.entry-header-wrap
+      } //.entry-header
+      // ENTRY CONTENT
+      .entry-content {
+        padding: 2em 0px;
+        .entry-content-wrap {
+          @include container();
+          .columntxt {
+            column-count: 3;
+            column-gap: 3em;
+            column-rule-width: 1px;
+            column-rule-style: solid;
+            column-rule-color: $lightsilver;
+            // column-width: 300px;
+            h2 {
+              //column-span: all;
+            } //h2
+            p {
+              font-size: 15px;
+              font-size: 0.9375rem;
+              margin-bottom: 0.5em;
+            } //p
+          } //.columntxt
+        } //.entry-content-wrap
+      } //.entry-content
+
+      .image-solid {
+        margin: 0px;
+        height: 300px;
+        width: 100%;
+        @include backImage($bgimg2);
+      } //.image-solid
+
+
+
+    } //.page-canvas
+
+  } //.page-template-page-canvasfree
+} //breakpoint($movil) 20em 320px
+
+
+@include breakpoint($tablet) { //30em 480px
+
+} //breakpoint($tablet) 30em 480px
+
+
+@include breakpoint($laptop) { //48em 768px
+
+} //breakpoint($laptop) 48em 768px
+
+
+@include breakpoint($desktop) { //67em 1072px
+
+} // breakpoint($desktop) 67em 1072px
+
+
+@include breakpoint($largedesk) { //79em 1264px
+
+} //breakpoint($largedesk) 79em 1264px

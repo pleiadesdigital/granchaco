@@ -22,8 +22,7 @@
 	}
 	.navigation-top .wrap {
 		max-width: 1000px;
-		/* The font size is 14px here and we need 50px padding in ems */
-		padding: 0.75em 3.4166666666667em;
+		padding: 3px 3.4166666666667em;
 	}
 	.navigation-top nav {
 		margin-left: -1.25em;
@@ -61,9 +60,13 @@
 		border: 0;
 		margin-bottom: 0;
 		padding: 0;
+		display: flex !important;
+		// flex-direction: row;
+		justify-content: space-between !important;
+		flex-wrap: no-wrap;
 	}
 	.main-navigation li {
-		// border: 0;
+		border: 0;
 		// display: inline-block;
 	}
 	.main-navigation li li {
@@ -73,8 +76,9 @@
 		padding: 1em 1.25em;
 	}
 	.main-navigation ul ul {
-		background: #fff;
-		border: 1px solid #bbb;
+		background: $white;
+		border: 1px solid #eee;
+		// border-top: none;
 		left: -999em;
 		padding: 0;
 		position: absolute;
@@ -85,8 +89,8 @@
 	.main-navigation ul li.menu-item-has-children:after,
 	.main-navigation ul li.page_item_has_children:before,
 	.main-navigation ul li.page_item_has_children:after {
-		border-style: solid;
-		border-width: 0 6px 6px;
+		/* border-style: solid;
+		border-width: 0px 7px 7px 6px;
 		content: "";
 		display: none;
 		height: 0;
@@ -94,7 +98,7 @@
 		right: 1em;
 		bottom: -1px;
 		width: 0;
-		z-index: 100000;
+		z-index: 100000; */
 	}
 	.main-navigation ul li.menu-item-has-children.focus:before,
 	.main-navigation ul li.menu-item-has-children:hover:before,
@@ -125,16 +129,18 @@
 		width: 16em;
 	}
 	.main-navigation li li {
-		-webkit-transition: background-color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out;
+		/* -webkit-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out; */
+		border-bottom: 1px solid $snow;
 	}
 	.main-navigation li li:hover,
 	.main-navigation li li.focus {
-		background: #767676;
+		// background: #767676;
+		background: $darkgrey;
 	}
 	.main-navigation li li a {
-		-webkit-transition: color 0.3s ease-in-out;
-		transition: color 0.3s ease-in-out;
+		/* -webkit-transition: color 0.3s ease-in-out;
+		transition: color 0.3s ease-in-out; */
 	}
 	.main-navigation li li.focus > a,
 	.main-navigation li li:focus > a,
@@ -145,7 +151,7 @@
 	.main-navigation li li.current-menu-item a:hover,
 	.main-navigation li li.current_page_item a:focus,
 	.main-navigation li li.current-menu-item a:focus {
-		color: #fff;
+		color: $white;
 	}
 	.main-navigation ul li:hover > ul,
 	.main-navigation ul li.focus > ul {
@@ -189,45 +195,6 @@
 		display: none;
 	}
 
-	// RO Top Navigation
-	.site-header {
-		// navigation top
-		.navigation-top {
-			border-top: 1px solid $palewhite;
-			border-bottom: none;
-			padding: 0px;
-			height: 55px;
-			.wrap {
-				// padding: 5px 3em 3em 5px;
-				padding-top: 1em;
-				padding-bottom: 1em;
-			} //.wrap
-
-			.main-navigation > div > ul {
-				display: flex;
-				flex-direction: row;
-				justify-content: space-between;
-				flex-wrap: no-wrap;
-			}
-			.main-navigation li {
-				border: 0;
-				a {
-					text-transform: uppercase;
-					text-align: center;
-					line-height: 1;
-					padding: 5px 0px;
-					border-bottom: 3px solid transparent;
-					@include single-transition();
-					@include transition-duration(0.3s);
-					&:hover,
-					&:focus {
-						border-bottom: 3px solid $darkgreen;
-					} //&:hover, &:focus
-				} //a
-			} //.main-navigation li
-		} //.navigation-top
-	} //.site-header
-
 
 } //breakpoint($laptop) 48em 768px
 
@@ -235,7 +202,7 @@
 @include breakpoint($desktop) { //67em 1072px
 	/* Navigation */
 	.navigation-top .wrap {
-		padding: 0.75em 2em;
+		// padding: 0.75em 2em;
 	}
 	.navigation-top nav {
 		margin-left: 0;

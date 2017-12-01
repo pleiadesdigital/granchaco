@@ -16,7 +16,7 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div class="header-top">
 				<div class="wrap">
-					<p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+13174562564">317-456-2564</a></p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+13174562564">021-3283-214</a></p>
 				</div><!-- class="wrap" -->
 			</div><!-- class="header-top" -->
 			<?php get_template_part('template-parts/header/header', 'image'); ?>
@@ -31,11 +31,11 @@
 
 		<?php
 		// If a regular post or page, and not the front page, show the featured image
-		if (has_post_thumbnail() && (is_single() || (is_page() &&!pleiadesmoon_is_frontpage()))) :
+/*		if (has_post_thumbnail() && (is_single() || (is_page() &&!pleiadesmoon_is_frontpage()))) :
 			echo '<div class="single-featured-image-header">';
 			the_post_thumbnail('pleiadesmoon-featured-image');
 			echo '</div><!-- .single-featured-image-header -->';
-		endif;
+		endif;*/
 		?>
 
 		<div class="site-content-contain">

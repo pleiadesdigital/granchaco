@@ -20,12 +20,18 @@
 					top: 7px;
 					right: 88px;
 					display: inline-block;
-				}
+				} //.fa-phone
+				a {
+					&:hover,
+					&:focus {
+						outline: none;
+					} //&:hover, &:focus
+				} //a
 			} //p
 		} //.header-top
 		// site branding
 		.site-branding {
-			padding: 1em 0px 0px;
+			padding: 1em 0px 0.5em;
 			a {
 				padding-bottom: 0px;
 				img {

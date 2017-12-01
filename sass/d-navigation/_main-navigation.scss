@@ -15,8 +15,9 @@
 .navigation-top a {
 	color: #222;
 	font-weight: 600;
-	-webkit-transition: color 0.2s;
-	transition: color 0.2s;
+	text-transform: uppercase;
+	/* -webkit-transition: color 0.2s;
+	transition: color 0.2s; */
 }
 
 .navigation-top .current-menu-item > a,

@@ -15,7 +15,8 @@ function pleiadesmoon_setup() {
 	add_theme_support('title-tag');
 	// POST THUMBNAILS
 	add_theme_support('post-thumbnails');
-	add_image_size('granchaco-featured-image', 2000, 1200, true);
+	// add_image_size('granchaco-featured-image', 2000, 1200, true);
+	add_image_size('granchaco-featured-image', 1024, 480, true);
 	add_image_size('granchaco-thumbnail-avatar', 100, 100, true);
 	add_image_size('granchaco-blog-thumb', 480, 715, true);
 	// Set the default content width.
