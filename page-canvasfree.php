@@ -4,8 +4,10 @@
 <?php
   if (is_page('proyecto')) {
     $content_part = 'proyecto';
-  } elseif (is_page('aprendizajes')) {
-    $content_part = 'aprendizajes';
+  } elseif (is_page('beneficiarios')) {
+    $content_part = 'beneficiarios';
+  } elseif (is_page('galeria-de-imagenes') || $post->post_parent == 100) {
+    $content_part = 'galeria-de-imagenes';
   } else {
     $content_part = 'canvas';
   }

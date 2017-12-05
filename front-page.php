@@ -22,27 +22,27 @@
 				<!-- GRID -->
 				<ul class="proyecto-infografias">
 					<li class="info-li">
-						<div class="fpicon"><img src="http://localhost/~ronyortiz/sites2017/granchaco/wp-content/themes/granchaco/assets/images/icons/green/area-del-chaco.png"></div>
+						<div class="fpicon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/green/area-del-chaco.png"></div>
 						<h3>1.141.000 km²</h3>
 						<p>El chaco es la segunda región boscosa más extensa de América del Sur, después de la selva amazónica.</p>
 					</li>
 					<li class="info-li">
-						<div class="fpicon"><img src="http://localhost/~ronyortiz/sites2017/granchaco/wp-content/themes/granchaco/assets/images/icons/green/comunidades-indigenas.png"></div>
+						<div class="fpicon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/green/comunidades-indigenas.png"></div>
 						<h3>37 comunidades indígenas</h3>
 						<p>20 de 100 argentinos, 4 de 100 bolivianos y 3 de 100 paraguayos viven en el Chaco.</p>
 					</li>
 					<li class="info-li">
-						<div class="fpicon"><img src="http://localhost/~ronyortiz/sites2017/granchaco/wp-content/themes/granchaco/assets/images/icons/green/numero-familias.png"></div>
+						<div class="fpicon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/green/numero-familias.png"></div>
 						<h3>Más de 6.000 familias</h3>
 						<p>Viven aproximadamente 23.000 personas, donde 11.148 son hombres y 11.927 son mujeres.</p>
 					</li>
 					<li class="info-li">
-						<div class="fpicon"><img src="http://localhost/~ronyortiz/sites2017/granchaco/wp-content/themes/granchaco/assets/images/icons/green/jovenes-beneficiados.png"></div>
+						<div class="fpicon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/green/jovenes-beneficiados.png"></div>
 						<h3>12.727 jóvenes beneficiados</h3>
 						<p>7.956 en Argentina, 211 en Bolivia y 4.560 en Paraguay forman parte del Gran Chaco Americano.</p>
 					</li>
 				</ul>
-				<div class="button"><a href="#">el proyecto</a></div>
+				<div class="button"><a href="http://chaco.mariposamundial.com/programa-chaco-sustentable/el-gran-chaco-americano/">el programa</a></div>
 			</div><!-- class="fp-proyecto-wrap" -->
 		</section><!-- class="fp-proyecto" -->
 
@@ -108,7 +108,7 @@
 		<!-- EJECUTORES PROYECTO -->
 		<section class="fp-ejecutores">
 			<div class="fp-ejecutores-wrap">
-				<h2 class="fp-ejecutores-title">Ejecutores del Proyecto</h2>
+				<h2 class="fp-ejecutores-title">Socios del Programa</h2>
 				<ul class="ul-ejecutores">
 					<li class="li-ejecutores">
 						<div class="imgcont">

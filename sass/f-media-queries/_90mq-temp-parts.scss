@@ -7,6 +7,9 @@
     #primary {
       max-width: 100% !important;
     }
+    #content {
+      padding-bottom: 0px !important;
+    }
     // CANVAS part
     .page-canvas {
       // ENTRY HEADER
@@ -42,7 +45,27 @@
         padding: 2em 0px;
         .entry-content-wrap {
           @include container();
-          .columntxt {
+
+          // 2 COLUMNS
+          .columntxt2 {
+            column-count: 2;
+            column-gap: 3em;
+            column-rule-width: 1px;
+            column-rule-style: solid;
+            column-rule-color: $lightsilver;
+            // column-width: 300px;
+            h2 {
+              //column-span: all;
+            } //h2
+            p {
+              font-size: 15px;
+              font-size: 0.9375rem;
+              margin-bottom: 0.5em;
+            } //p
+          } //.columntxt
+
+          // 3 COLUMNS
+          .columntxt3 {
             column-count: 3;
             column-gap: 3em;
             column-rule-width: 1px;
@@ -58,19 +81,182 @@
               margin-bottom: 0.5em;
             } //p
           } //.columntxt
+
+          // Generic
+          ul {
+            margin-left: 1em;
+            list-style-type: square;
+          }
         } //.entry-content-wrap
       } //.entry-content
 
-      .image-solid {
+      .image-solid1 {
+        margin: 0px;
+        height: 300px;
+        width: 100%;
+        @include backImage($bgimg1);
+      } //.image-solid1
+      .image-solid2 {
         margin: 0px;
         height: 300px;
         width: 100%;
         @include backImage($bgimg2);
-      } //.image-solid
-
-
+      } //.image-solid2
+      .image-solid3 {
+        margin: 0px;
+        height: 300px;
+        width: 100%;
+        @include backImage($bgimg3);
+      } //.image-solid3
+      .image-solid4 {
+        margin: 0px;
+        height: 300px;
+        width: 100%;
+        @include backImage($bgimg4);
+      } //.image-solid4
+      .image-solid5 {
+        margin: 0px;
+        height: 300px;
+        width: 100%;
+        @include backImage($bgimg5);
+      } //.image-solid5
+      .image-solid6 {
+        margin: 0px;
+        height: 300px;
+        width: 100%;
+        @include backImage($bgimg6);
+      } //.image-solid5
 
     } //.page-canvas
+
+    // BENEFICIARIOS part
+    .page-beneficiarios {
+      // ENTRY HEADER
+      .entry-header {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: auto;
+        .entry-header-wrap {
+          padding: 3em 0px;
+          line-height: 1;
+          @include container();
+          .featured-image {
+            img {
+            } //img
+          } //.featured-image
+          .entry-title {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            font-size: 40px;
+            font-size: 2.5rem;
+            font-weight: $light;
+            color: $paleblack;
+          } //.entry-title
+        } //.entry-header-wrap
+      } //.entry-header
+      // ENTRY CONTENT
+      .entry-content {
+        padding: 2em 0px;
+        &.background-image {
+          background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg1.jpg");
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        } //&.background-image
+        .entry-content-wrap {
+          @include container();
+          .infografia {
+            color: $white;
+            padding: 1em 0px;
+            ul {
+              list-style: none;
+              margin: 0px;
+              padding: 0px;
+              background-color: rgba($black, 0.3);
+              display: flex;
+              justify-content: space-between;
+              li {
+                padding: 1em;
+                text-align: center;
+                text-transform: uppercase;
+                @include single-text-shadow(1px, 1px, 0px, false, $paleblack);
+                font-size: 30px;
+                font-size: 1.5rem;
+                // display: inline-block;
+              } //li
+            } //ul
+          } //.infografia
+        } //.entry-content-wrap
+      } //.entry-content
+      margin-bottom: 8em;
+    } //.page-beneficiarios
+
+    // GALERIA DE IMAGENES part
+    .page-galeria-de-imagenes {
+      // ENTRY HEADER
+      .entry-header {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: auto;
+        .entry-header-wrap {
+          padding: 3em 0px;
+          line-height: 1;
+          @include container();
+          .featured-image {
+            img {
+            } //img
+          } //.featured-image
+          .entry-title {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            text-align: center;
+            font-size: 40px;
+            font-size: 2.5rem;
+            font-weight: $light;
+            color: $paleblack;
+          } //.entry-title
+        } //.entry-header-wrap
+      } //.entry-header
+      // ENTRY CONTENT
+      .entry-content {
+        padding: 4em;
+        &.background-image {
+          background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg7.jpg");
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        } //&.background-image
+        .entry-content-wrap {
+          @include container();
+          .infografia {
+            color: $white;
+            padding: 1em 0px;
+            ul {
+              list-style: none;
+              margin: 0px;
+              padding: 0px;
+              background-color: rgba($black, 0.3);
+              display: flex;
+              justify-content: space-between;
+              li {
+                padding: 1em;
+                text-align: center;
+                text-transform: uppercase;
+                @include single-text-shadow(1px, 1px, 0px, false, $paleblack);
+                font-size: 30px;
+                font-size: 1.5rem;
+                // display: inline-block;
+              } //li
+            } //ul
+          } //.infografia
+        } //.entry-content-wrap
+      } //.entry-content
+      margin-bottom: 8em;
+    } //.page-galeria-de-fotos
 
   } //.page-template-page-canvasfree
 } //breakpoint($movil) 20em 320px

@@ -4699,13 +4699,17 @@ F. Media Queries
   .page-template-page-canvasfree #primary {
     max-width: 100% !important;
   }
-  /* line 13, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 10, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree #content {
+    padding-bottom: 0px !important;
+  }
+  /* line 16, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-header {
     padding-bottom: 0px;
     margin-top: 30px;
     margin-bottom: 0px;
   }
-  /* line 17, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 20, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-header .entry-header-wrap {
     padding-bottom: 0px;
     line-height: 1;
@@ -4720,7 +4724,7 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 27, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 30, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-header .entry-header-wrap .entry-title {
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -4732,11 +4736,11 @@ F. Media Queries
     color: #FFFFFF;
     text-shadow: 1px 1px 0px #222222;
   }
-  /* line 41, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 44, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-content {
     padding: 2em 0px;
   }
-  /* line 43, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 46, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -4748,26 +4752,45 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 45, sass/f-media-queries/_90mq-temp-parts.scss */
-  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt {
+  /* line 50, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt2 {
+    column-count: 2;
+    column-gap: 3em;
+    column-rule-width: 1px;
+    column-rule-style: solid;
+    column-rule-color: #e6e6e6;
+  }
+  /* line 60, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt2 p {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    margin-bottom: 0.5em;
+  }
+  /* line 68, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt3 {
     column-count: 3;
     column-gap: 3em;
     column-rule-width: 1px;
     column-rule-style: solid;
     column-rule-color: #e6e6e6;
   }
-  /* line 55, sass/f-media-queries/_90mq-temp-parts.scss */
-  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt p {
+  /* line 78, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt3 p {
     font-size: 15px;
     font-size: 0.9375rem;
     margin-bottom: 0.5em;
   }
-  /* line 64, sass/f-media-queries/_90mq-temp-parts.scss */
-  .page-template-page-canvasfree .page-canvas .image-solid {
+  /* line 86, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap ul {
+    margin-left: 1em;
+    list-style-type: square;
+  }
+  /* line 93, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .image-solid1 {
     margin: 0px;
     height: 300px;
     width: 100%;
-    background-image: url("http://localhost/~ronyortiz/sites2017/granchaco/wp-content/themes/granchaco/assets/images/bg/bg2.jpg");
+    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg1.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -4775,6 +4798,239 @@ F. Media Queries
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  /* line 99, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .image-solid2 {
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* line 105, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .image-solid3 {
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* line 111, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .image-solid4 {
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* line 117, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .image-solid5 {
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg5.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* line 123, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-canvas .image-solid6 {
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* line 133, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios {
+    margin-bottom: 8em;
+  }
+  /* line 135, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-header {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+  }
+  /* line 140, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-header .entry-header-wrap {
+    padding: 3em 0px;
+    line-height: 1;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-header .entry-header-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 148, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-header .entry-header-wrap .entry-title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 40px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #222222;
+  }
+  /* line 159, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-content {
+    padding: 2em 0px;
+  }
+  /* line 161, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-content.background-image {
+    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 168, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-content .entry-content-wrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-content .entry-content-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 170, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-content .entry-content-wrap .infografia {
+    color: #FFFFFF;
+    padding: 1em 0px;
+  }
+  /* line 173, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-content .entry-content-wrap .infografia ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 180, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-beneficiarios .entry-content .entry-content-wrap .infografia ul li {
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #222222;
+    font-size: 30px;
+    font-size: 1.5rem;
+  }
+  /* line 197, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes {
+    margin-bottom: 8em;
+  }
+  /* line 199, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-header {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+  }
+  /* line 204, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-header .entry-header-wrap {
+    padding: 3em 0px;
+    line-height: 1;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-header .entry-header-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 212, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-header .entry-header-wrap .entry-title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #222222;
+  }
+  /* line 224, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content {
+    padding: 4em;
+  }
+  /* line 226, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content.background-image {
+    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg7.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 233, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content .entry-content-wrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content .entry-content-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 235, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content .entry-content-wrap .infografia {
+    color: #FFFFFF;
+    padding: 1em 0px;
+  }
+  /* line 238, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content .entry-content-wrap .infografia ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 245, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content .entry-content-wrap .infografia ul li {
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #222222;
+    font-size: 30px;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 320px) {
