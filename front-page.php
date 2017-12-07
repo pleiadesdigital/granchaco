@@ -5,12 +5,27 @@
 	<main id="main" class="site-main" role="main">
 
 
-		<!-- VIDEO -->
-		<div class="video-background">
-			<div class="video-foreground">
-				<iframe src="https://www.youtube.com/embed/qPwjmyE5tRg?rel=0&amp;controls=0&amp;showinfo=0&amp;start=9&amp;autoplay=0&amp;loop=0&amp;fs=1&amp;modestbranding=0" frameborder="0" allowfullscreen class="video"></iframe>
-			</div><!-- class="video-foreground" -->
-		</div><!-- class="video-background" -->
+		<!-- FP IMAGE -->
+		<section class="fp-featimg">
+			<div class="fp-featimg-wrap" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bg/fpbg.jpg)">
+				<?php
+					$args = array(
+						'post_type'					=> 'post',
+						'post_per_page'			=> 1,
+						'post_status'				=> 'publish',
+						'p'									=> 189,
+					);
+					$query = new WP_Query($args);
+				?>
+				<?php if ($query -> have_posts()) : while ($query -> have_posts()) : $query->the_post();  ?>
+					<div class="video-link-container">
+						<?php the_content(); ?>
+					</div>
+				<?php endwhile; endif; ?>
+
+			</div><!-- class="fp-featimg-wrap" -->
+			<?php wp_reset_postdata(); ?>
+		</section><!-- class="fp-featimg" -->
 
 		<!-- EL PROYECTO -->
 		<section class="fp-proyecto">
@@ -42,7 +57,7 @@
 						<p>7.956 en Argentina, 211 en Bolivia y 4.560 en Paraguay forman parte del Gran Chaco Americano.</p>
 					</li>
 				</ul>
-				<div class="button"><a href="http://chaco.mariposamundial.com/programa-chaco-sustentable/el-gran-chaco-americano/">el programa</a></div>
+				<div class="button"><a href="http://chacosustentable.org/programa-chaco-sustentable/el-gran-chaco-americano/">el programa</a></div>
 			</div><!-- class="fp-proyecto-wrap" -->
 		</section><!-- class="fp-proyecto" -->
 
@@ -79,26 +94,32 @@
 		<!-- TESTIMONIOS -->
 		<section class="fp-testimonios">
 			<div class="fp-testimonios-wrap">
-
 				<div id="slider" class="flexslider">
+					<?php
+						$args = array(
+							'post_type'				=> 'post',
+							'cat'							=> 6,
+							'orderby'					=> 'rand',
+						);
+						$query = new WP_Query($args);
+					?>
+					<h2 class="fp-testimonios-title">Testimonios</h2>
 					<ul class="slides">
-
+						<?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
 						<li class="slide-testimony">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/slides/slide1.jpg">
-							<p>"La situación económica ha sido tan difícil que hay cosas básicas como libros y ropa que no he tenido la opción de comprar. La única ayuda que recibo es la de Save the Children"<span class="testimony-user">Rebecca y su hija Rachael,11 meses. Sudán</span></p>
-						</li>
+							<?php the_post_thumbnail('granchaco-fp-testimonios'); ?>
+							<div class="testimony-text">
+								<?php the_excerpt(); ?>
+								<p class="testimony-user"><?php wp_strip_all_tags(the_title(), true); ?></p>
+								<div class="button">
+									<a href="<?php the_permalink(); ?>">leer más</a>
+								</div><!-- class="button" -->
+							</div><!-- class="testimony-text" -->
 
-						<li class="slide-testimony">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/slides/slide2.jpg">
-							<p>"Llegué al centro de nutrición porque mi hija estaba perdiendo mucho peso y dejó de comer. Estoy muy agradecida por lo que Save the Children ha hecho por ella. Sin ayuda no habría sobrevivido"<span class="testimony-user">Sabina, madre de dos niñas de 11 años. España</span></p>
 						</li>
-
-						<li class="slide-testimony">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/slides/slide3.jpg">
-							<p>"No acabé el colegio. Me han enseñado a realizar un presupuesto. Hacer alfombras es nuestra principal fuente de ingresos, me gusta tejerlas. El programa de Save the Children Jóvenes en acción me ayuda a superar mis retos."<span class="testimony-user">Majesta, 16 años.Uganda</span></p>
-						</li>
-
+						<?php endwhile; endif; ?>
 					</ul>
+					<?php wp_reset_postdata(); ?>
 				</div><!-- id="slider" class="flexslider" -->
 
 
@@ -111,29 +132,19 @@
 				<h2 class="fp-ejecutores-title">Socios del Programa</h2>
 				<ul class="ul-ejecutores">
 					<li class="li-ejecutores">
-						<div class="imgcont">
-							<a  href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/cerdet.jpg"></a>
-						</div>
+						<a  href="http://www.cerdet.org.bo/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/cerdet.png" alt="Cerdet - Centro de Estudios Regionales para el Desarrollo de Tarija"></a>
 					</li>
 					<li class="li-ejecutores">
-						<div class="imgcont">
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/icco.jpg"></a>
-						</div>
+						<a href="https://iccoamericalatina.org/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/icco.png" alt="ICCO - Organización internacional holandesa de cooperación para el desarrollo"></a>
 					</li>
 					<li class="li-ejecutores">
-						<div class="imgcont">
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/jum.png"></a>
-						</div>
+						<a href="http://federacionjum.org.ar/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/jum.png" alt="JUM - Organización formada por iglesias cristianas que realizan sus acciones de servicio en el vínculo y diálogo con las comunidades indígenas"></a>
 					</li>
 					<li class="li-ejecutores">
-						<div class="imgcont">
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/kerkinactie.png"></a>
-						</div>
+						<a href="https://www.kerkinactie.nl/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/kerkinactie.png" alt="KerkInActie - Juntos somos la Iglesia en Acción. Inspirado por Jesucristo, queremos compartir lo que se nos ha dado. Ofrecer a las personas en los Países Bajos y en todo el mundo la esperanza y mostrar todo su potencial."></a>
 					</li>
 					<li class="li-ejecutores">
-						<div class="imgcont">
-							<a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/tierraviva.jpg"></a>
-						</div>
+						<a href="http://www.tierraviva.org.py/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ejecutores/tierraviva.png" alt="Tierraviva es una organización no gubernamental sin fines de lucro, que desde 1994 trabaja en la promoción y defensa de los derechos humanos de los Pueblos Indígenas"></a>
 					</li>
 				</ul>
 			</div><!-- class="fp-ejecutores-wrap" -->

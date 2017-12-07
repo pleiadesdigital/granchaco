@@ -2,10 +2,12 @@
 
 <!-- CONTENT PART GENERATOR -->
 <?php
-  if (is_page('proyecto')) {
-    $content_part = 'proyecto';
-  } elseif (is_page('beneficiarios')) {
-    $content_part = 'beneficiarios';
+  if (is_page('el-gran-chaco-americano')) {
+    $content_part = 'el-gran-chaco-americano';
+  } elseif (is_page('el-programa')) {
+    $content_part = 'el-programa';
+  } elseif (is_page('socios')) {
+    $content_part = 'socios';
   } elseif (is_page('galeria-de-imagenes') || $post->post_parent == 100) {
     $content_part = 'galeria-de-imagenes';
   } else {

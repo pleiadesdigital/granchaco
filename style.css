@@ -4186,12 +4186,67 @@ F. Media Queries
     background-size: cover;
   }
 
-  /* line 23, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 26, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap {
+    height: 300px;
+    position: relative;
+  }
+  /* line 30, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap .fpimg {
+    width: 100%;
+  }
+  /* line 35, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap .video-link-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 0px 0px 2em 2em;
+    display: block;
+    width: 50%;
+  }
+  /* line 44, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap .video-link-container h2 {
+    color: #FFFFFF;
+    text-shadow: 0px 0px 1px #222222;
+    margin: 0px 0px 1em;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    padding: 0px;
+  }
+  /* line 54, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap .video-link-container .video-button a {
+    padding: 0.5em 1em;
+    background-color: rgba(25, 212, 94, 0.7);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+  }
+  /* line 61, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap .video-link-container .video-button a:hover, .fp-featimg .fp-featimg-wrap .video-link-container .video-button a:focus {
+    background-color: rgba(20, 166, 74, 0.7);
+  }
+
+  /* line 74, sass/f-media-queries/_8mq-frontpage.scss */
+  a.pp_close {
+    display: none;
+  }
+
+  /* line 80, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto {
     background-color: #FFFFFF;
-    padding: 4em 1em;
+    padding: 2em 1em;
   }
-  /* line 26, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 83, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -4203,11 +4258,11 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 29, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 86, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-intro {
     padding: 1em 0.5em;
   }
-  /* line 31, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 88, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-intro h2 {
     font-weight: 600;
     font-size: 24px;
@@ -4216,7 +4271,7 @@ F. Media Queries
     color: #2f403a;
     text-transform: uppercase;
   }
-  /* line 39, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 96, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-intro p {
     text-transform: uppercase;
     font-weight: 300;
@@ -4226,7 +4281,7 @@ F. Media Queries
     line-height: 1.3;
     margin-bottom: 0px;
   }
-  /* line 51, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 108, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-infografias {
     list-style: none;
     margin-top: 1em;
@@ -4235,14 +4290,14 @@ F. Media Queries
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  /* line 58, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 115, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-infografias .info-li {
     padding: 0px;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 1;
   }
-  /* line 63, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 120, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-infografias .info-li .fpicon {
     background-color: #e6e6e6;
     padding: 2em;
@@ -4253,14 +4308,14 @@ F. Media Queries
     -webkit-border-radius: 50%;
     border-radius: 50%;
   }
-  /* line 70, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 127, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-infografias .info-li .fpicon img {
     display: block;
     margin: 0px auto;
     width: 100%;
     height: auto;
   }
-  /* line 78, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 135, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-infografias .info-li h3 {
     text-align: center;
     padding: 0px;
@@ -4274,19 +4329,19 @@ F. Media Queries
     font-size: 1rem;
     min-height: 30px;
   }
-  /* line 91, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 148, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-infografias .info-li p {
     text-align: center;
     padding: 0px;
     margin: 0px;
     line-height: 1;
   }
-  /* line 101, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 158, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .button {
     display: block;
     margin-top: 2em;
   }
-  /* line 104, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 161, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .button a {
     background-color: #4b4f52;
     padding: 0.5em 1em;
@@ -4304,17 +4359,17 @@ F. Media Queries
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  /* line 115, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 172, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .button a:hover, .fp-proyecto .fp-proyecto-wrap .button a:focus {
     background-color: #222222;
   }
 
-  /* line 126, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 183, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias {
     background-color: #fafafa;
     padding: 3em 1em 4em;
   }
-  /* line 129, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 186, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias .fp-noticias-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -4326,7 +4381,7 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 131, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 188, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias .fp-noticias-wrap .fp-noticias-title {
     text-transform: uppercase;
     color: #222222;
@@ -4336,7 +4391,7 @@ F. Media Queries
     text-align: center;
     margin-bottom: 1em;
   }
-  /* line 140, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 197, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias .fp-noticias-wrap .ul-noticias {
     list-style: none;
     margin: 0px;
@@ -4344,7 +4399,7 @@ F. Media Queries
     display: flex;
     justify-content: space-between;
   }
-  /* line 146, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 203, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias .fp-noticias-wrap .ul-noticias .li-noticia {
     flex-grow: 1;
     flex-shrink: 1;
@@ -4354,11 +4409,11 @@ F. Media Queries
     margin-right: 2em;
     position: relative;
   }
-  /* line 154, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 211, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias .fp-noticias-wrap .ul-noticias .li-noticia:last-child {
     margin-right: 0px;
   }
-  /* line 157, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 214, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias .fp-noticias-wrap .ul-noticias .li-noticia h3 {
     text-align: left;
     padding: 0px;
@@ -4372,13 +4427,13 @@ F. Media Queries
     font-size: 1rem;
     min-height: 40px;
   }
-  /* line 170, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 227, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias .fp-noticias-wrap .ul-noticias .li-noticia p {
     margin: 0px;
     padding: 0px;
     line-height: 1.2;
   }
-  /* line 175, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 232, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias .fp-noticias-wrap .ul-noticias .li-noticia .more-link {
     position: absolute;
     bottom: 0px;
@@ -4397,18 +4452,18 @@ F. Media Queries
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  /* line 189, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 246, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-noticias .fp-noticias-wrap .ul-noticias .li-noticia .more-link:hover, .fp-noticias .fp-noticias-wrap .ul-noticias .li-noticia .more-link:focus {
     border-bottom: 1px dotted #2f403a;
     color: #2f403a;
   }
 
-  /* line 201, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 258, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-testimonios {
     background-color: #FFFFFF;
-    padding: 4em 1em;
+    padding: 4em 1em 5em;
   }
-  /* line 204, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 261, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-testimonios .fp-testimonios-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -4420,30 +4475,45 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 208, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 263, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-testimonios .fp-testimonios-wrap .fp-testimonios-title {
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: bold;
+    font-size: 24px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  /* line 274, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony {
     position: relative;
   }
-  /* line 213, sass/f-media-queries/_8mq-frontpage.scss */
-  .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony p {
+  /* line 278, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony .testimony-text {
     position: absolute;
     bottom: 1em;
     left: 2em;
     display: block;
     width: 40%;
+  }
+  /* line 284, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony .testimony-text p {
     color: #FFFFFF;
     font-weight: 300;
-    font-size: 22px;
-    font-size: 1.375rem;
+    font-size: 18px;
+    font-size: 1.125rem;
     font-style: italic;
     text-align: right;
-    line-height: 1.3;
+    line-height: 1.2;
     font-weight: 400;
-    text-shadow: 0px 0px 1px #000000;
+    text-decoration: underline;
+    text-decoration-color: yellow;
   }
-  /* line 228, sass/f-media-queries/_8mq-frontpage.scss */
-  .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony p .testimony-user {
-    margin-top: 2em;
+  /* line 296, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony .testimony-text p.testimony-user {
+    text-decoration: none;
+    margin-top: 1em;
     display: block;
     font-style: normal;
     color: #FFFFFF;
@@ -4452,13 +4522,33 @@ F. Media Queries
     font-size: 16px;
     font-size: 1rem;
   }
+  /* line 309, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony .testimony-text .button {
+    display: block;
+    height: 20px;
+    position: relative;
+  }
+  /* line 313, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony .testimony-text .button a {
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+    padding: 3px 1em;
+    background-color: rgba(25, 212, 94, 0.7);
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  /* line 321, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony .testimony-text .button a:hover, .fp-testimonios .fp-testimonios-wrap .slides .slide-testimony .testimony-text .button a:focus {
+    background-color: rgba(20, 166, 74, 0.7);
+  }
 
-  /* line 246, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 334, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-ejecutores {
     background-color: #fafafa;
-    padding: 4em 1em 5em;
+    padding: 4em 1em 4em;
   }
-  /* line 249, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 337, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-ejecutores .fp-ejecutores-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -4470,7 +4560,7 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 251, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 339, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-ejecutores .fp-ejecutores-wrap .fp-ejecutores-title {
     text-transform: uppercase;
     color: #222222;
@@ -4480,34 +4570,31 @@ F. Media Queries
     text-align: center;
     margin-bottom: 1em;
   }
-  /* line 267, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 355, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores {
     margin: 0px;
     padding: 0px;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
-  /* line 273, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 362, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores {
+    border: 1px solid #d4d7bf;
     background-color: #FFFFFF;
-    padding: 0.5em 1em;
-    width: 33%;
-    margin-right: 5px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    width: 32%;
   }
-  /* line 279, sass/f-media-queries/_8mq-frontpage.scss */
-  .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores:last-child {
-    margin-right: 0px;
+  /* line 369, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores a {
+    border: 1px solid #d4d7bf;
+    display: block;
+    width: auto;
   }
-  /* line 282, sass/f-media-queries/_8mq-frontpage.scss */
-  .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores .imgcont {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  /* line 287, sass/f-media-queries/_8mq-frontpage.scss */
-  .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores .imgcont img {
+  /* line 373, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores a img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     vertical-align: middle;
@@ -4516,48 +4603,48 @@ F. Media Queries
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
-  /* line 292, sass/f-media-queries/_8mq-frontpage.scss */
-  .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores .imgcont img:hover, .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores .imgcont img:focus {
+  /* line 378, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores a img:hover, .fp-ejecutores .fp-ejecutores-wrap .ul-ejecutores .li-ejecutores a img:focus {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
   }
 }
 @media (min-width: 480px) {
   /* Front Page ORIGINAL styles */
-  /* line 312, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 399, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .wrap {
     padding-bottom: 2em;
     padding-top: 3.5em;
   }
 
-  /* line 316, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 403, sass/f-media-queries/_8mq-frontpage.scss */
   .page-one-column .panel-content .wrap {
     max-width: 740px;
   }
 
-  /* line 319, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 406, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .entry-header {
     margin-bottom: 4.5em;
   }
 
-  /* line 322, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 409, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts .entry-header {
     margin-bottom: 0;
   }
 
-  /* line 330, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 427, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-infografias .info-li {
     margin-right: 1em;
     flex-basis: 0;
   }
-  /* line 332, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 429, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-infografias .info-li:last-child {
     margin-right: 0px;
   }
 }
 @media (min-width: 768px) {
   /* Front Page ORIGINAL styles */
-  /* line 367, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 464, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page.has-header-image .site-branding,
   .pleiadesmoon-front-page.has-header-video .site-branding,
   .home.blog.has-header-image .site-branding,
@@ -4565,7 +4652,7 @@ F. Media Queries
     margin-bottom: 70px;
   }
 
-  /* line 373, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 470, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page.has-header-image .custom-header-media,
   .pleiadesmoon-front-page.has-header-video .custom-header-media,
   .home.blog.has-header-image .custom-header-media,
@@ -4576,7 +4663,7 @@ F. Media Queries
     overflow: hidden;
   }
 
-  /* line 382, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 479, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page.has-header-image .custom-header-media:before,
   .pleiadesmoon-front-page.has-header-video .custom-header-media:before,
   .home.blog.has-header-image .custom-header-media:before,
@@ -4584,7 +4671,7 @@ F. Media Queries
     height: 33%;
   }
 
-  /* line 388, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 485, sass/f-media-queries/_8mq-frontpage.scss */
   .admin-bar.pleiadesmoon-front-page.has-header-image .custom-header-media,
   .admin-bar.pleiadesmoon-front-page.has-header-video .custom-header-media,
   .admin-bar.home.blog.has-header-image .custom-header-media,
@@ -4592,50 +4679,50 @@ F. Media Queries
     height: calc(100vh - 32px);
   }
 
-  /* line 394, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 491, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .wrap {
     padding-bottom: 4.5em;
     padding-top: 6em;
   }
 
-  /* line 398, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 495, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-image {
     height: 100vh;
     max-height: 1200px;
   }
 
   /* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. */
-  /* line 403, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 500, sass/f-media-queries/_8mq-frontpage.scss */
   .background-fixed .panel-image {
     background-attachment: fixed;
   }
 
-  /* line 406, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 503, sass/f-media-queries/_8mq-frontpage.scss */
   .page-two-column .panel-content .entry-header {
     float: left;
     width: 36%;
   }
 
-  /* line 410, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 507, sass/f-media-queries/_8mq-frontpage.scss */
   .page-two-column .panel-content .entry-content {
     float: right;
     width: 58%;
   }
 
   /* Front Page - Recent Posts */
-  /* line 415, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 512, sass/f-media-queries/_8mq-frontpage.scss */
   .page-two-column .panel-content .recent-posts {
     clear: right;
     float: right;
     width: 58%;
   }
 
-  /* line 420, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 517, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts article {
     margin-bottom: 4em;
   }
 
-  /* line 423, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 520, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts .entry-header,
   .page-two-column #primary .panel-content .recent-posts .entry-header,
   .panel-content .recent-posts .entry-content,
@@ -4644,18 +4731,26 @@ F. Media Queries
     width: 100%;
   }
 
-  /* line 430, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 527, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts .entry-header {
     margin-bottom: 1.5em;
   }
 
-  /* line 433, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 530, sass/f-media-queries/_8mq-frontpage.scss */
   .page .panel-content .recent-posts .entry-title {
     font-size: 26px;
     font-size: 1.625rem;
   }
 
-  /* line 440, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 537, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  /* line 550, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -4667,11 +4762,11 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 442, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 552, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-intro {
     padding: 1em 2em;
   }
-  /* line 444, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 554, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-intro h2 {
     font-weight: 600;
     font-size: 24px;
@@ -4680,14 +4775,38 @@ F. Media Queries
     color: #2f403a;
     text-transform: uppercase;
   }
-  /* line 452, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 562, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-intro p {
     font-size: 24px;
     font-size: 1.5rem;
   }
-  /* line 459, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 569, sass/f-media-queries/_8mq-frontpage.scss */
   .fp-proyecto .fp-proyecto-wrap .proyecto-infografias .info-li {
     flex-basis: 0;
+  }
+}
+@media (min-width: 960px) {
+  /* line 606, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap {
+    display: block;
+    min-height: 350px;
+  }
+  /* line 609, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap .fpimg {
+    min-height: 400px;
+  }
+}
+@media (min-width: 1072px) {
+  /* line 621, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap {
+    display: block;
+    min-height: 400px;
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+  /* line 626, sass/f-media-queries/_8mq-frontpage.scss */
+  .fp-featimg .fp-featimg-wrap .fpimg {
+    min-height: 400px;
   }
 }
 @media (min-width: 320px) {
@@ -4704,12 +4823,115 @@ F. Media Queries
     padding-bottom: 0px !important;
   }
   /* line 16, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt1 {
+    column-count: 1;
+    /* column-gap: 3em;
+    column-rule-width: 1px;
+    column-rule-style: solid;
+    column-rule-color: $lightsilver; */
+  }
+  /* line 23, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt1 h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-bottom: 1em;
+    color: #222222;
+    font-size: 22px;
+    font-size: 1.375rem;
+  }
+  /* line 32, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt1 p {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    margin-bottom: 0.5em;
+  }
+  /* line 40, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt2 {
+    column-count: 2;
+    column-gap: 3em;
+    column-rule-width: 1px;
+    column-rule-style: solid;
+    column-rule-color: #e6e6e6;
+  }
+  /* line 47, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt2 h2 {
+    column-span: all;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-bottom: 2em;
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: #222222;
+    text-align: left;
+    letter-spacing: 1.3;
+  }
+  /* line 59, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt2 h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+  /* line 67, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt2 p {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    margin-bottom: 0.5em;
+  }
+  /* line 72, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt2 img {
+    margin-bottom: 1em;
+  }
+  /* line 78, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt3 {
+    column-count: 3;
+    column-gap: 3em;
+    column-rule-width: 1px;
+    column-rule-style: solid;
+    column-rule-color: #e6e6e6;
+  }
+  /* line 85, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt3 h2 {
+    column-span: all;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-bottom: 2em;
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: #222222;
+    text-align: center;
+  }
+  /* line 96, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt3 h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+  /* line 104, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt3 p {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    margin-bottom: 0.5em;
+  }
+  /* line 109, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .columntxt3 img {
+    margin-bottom: 1em;
+  }
+  /* line 117, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-header {
     padding-bottom: 0px;
     margin-top: 30px;
     margin-bottom: 0px;
   }
-  /* line 20, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 121, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-header .entry-header-wrap {
     padding-bottom: 0px;
     line-height: 1;
@@ -4724,7 +4946,7 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 30, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 130, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-header .entry-header-wrap .entry-title {
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -4736,11 +4958,11 @@ F. Media Queries
     color: #FFFFFF;
     text-shadow: 1px 1px 0px #222222;
   }
-  /* line 44, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 144, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-content {
     padding: 2em 0px;
   }
-  /* line 46, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 146, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -4752,45 +4974,17 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 50, sass/f-media-queries/_90mq-temp-parts.scss */
-  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt2 {
-    column-count: 2;
-    column-gap: 3em;
-    column-rule-width: 1px;
-    column-rule-style: solid;
-    column-rule-color: #e6e6e6;
-  }
-  /* line 60, sass/f-media-queries/_90mq-temp-parts.scss */
-  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt2 p {
-    font-size: 15px;
-    font-size: 0.9375rem;
-    margin-bottom: 0.5em;
-  }
-  /* line 68, sass/f-media-queries/_90mq-temp-parts.scss */
-  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt3 {
-    column-count: 3;
-    column-gap: 3em;
-    column-rule-width: 1px;
-    column-rule-style: solid;
-    column-rule-color: #e6e6e6;
-  }
-  /* line 78, sass/f-media-queries/_90mq-temp-parts.scss */
-  .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap .columntxt3 p {
-    font-size: 15px;
-    font-size: 0.9375rem;
-    margin-bottom: 0.5em;
-  }
-  /* line 86, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 149, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .entry-content .entry-content-wrap ul {
     margin-left: 1em;
     list-style-type: square;
   }
-  /* line 93, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 157, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .image-solid1 {
     margin: 0px;
     height: 300px;
     width: 100%;
-    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg1.jpg");
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg1.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -4799,12 +4993,12 @@ F. Media Queries
     -o-background-size: cover;
     background-size: cover;
   }
-  /* line 99, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 163, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .image-solid2 {
     margin: 0px;
     height: 300px;
     width: 100%;
-    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg2.jpg");
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg2.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -4813,12 +5007,12 @@ F. Media Queries
     -o-background-size: cover;
     background-size: cover;
   }
-  /* line 105, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 169, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .image-solid3 {
     margin: 0px;
     height: 300px;
     width: 100%;
-    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg3.jpg");
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg3.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -4827,12 +5021,12 @@ F. Media Queries
     -o-background-size: cover;
     background-size: cover;
   }
-  /* line 111, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 175, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .image-solid4 {
     margin: 0px;
     height: 300px;
     width: 100%;
-    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg4.jpg");
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg4.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -4841,12 +5035,12 @@ F. Media Queries
     -o-background-size: cover;
     background-size: cover;
   }
-  /* line 117, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 181, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .image-solid5 {
     margin: 0px;
     height: 300px;
     width: 100%;
-    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg5.jpg");
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg5.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -4855,12 +5049,12 @@ F. Media Queries
     -o-background-size: cover;
     background-size: cover;
   }
-  /* line 123, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 187, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-canvas .image-solid6 {
     margin: 0px;
     height: 300px;
     width: 100%;
-    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg6.jpg");
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg6.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -4869,18 +5063,146 @@ F. Media Queries
     -o-background-size: cover;
     background-size: cover;
   }
-  /* line 133, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 198, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa {
+    margin-bottom: 8em;
+  }
+  /* line 199, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .image-solid2 {
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* line 205, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .image-solid3 {
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* line 212, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-header {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    text-shadow: 1px 1px 0px #222222;
+  }
+  /* line 218, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-header .entry-header-wrap {
+    padding: 3em 0px 0px;
+    line-height: 1;
+    position: relative;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .page-template-page-canvasfree .page-programa .entry-header .entry-header-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 227, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-header .entry-header-wrap .title-subtitle {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    width: 70%;
+  }
+  /* line 232, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-header .entry-header-wrap .title-subtitle .entry-title {
+    text-align: right;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 40px;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #222222;
+  }
+  /* line 241, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-header .entry-header-wrap .title-subtitle .entry-subtitle {
+    color: #FFFFFF;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+  /* line 253, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-content {
+    padding: 2em 0px;
+  }
+  /* line 255, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-content.background-image {
+    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 262, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-content .entry-content-wrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .page-template-page-canvasfree .page-programa .entry-content .entry-content-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 264, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-content .entry-content-wrap .infografia {
+    color: #FFFFFF;
+    padding: 1em 0px;
+  }
+  /* line 267, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-content .entry-content-wrap .infografia ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 274, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-programa .entry-content .entry-content-wrap .infografia ul li {
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #222222;
+    font-size: 30px;
+    font-size: 1.5rem;
+  }
+  /* line 291, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios {
     margin-bottom: 8em;
   }
-  /* line 135, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 293, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios .entry-header {
     padding-bottom: 0px;
     margin-bottom: 0px;
     width: 100%;
     height: auto;
   }
-  /* line 140, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 298, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios .entry-header .entry-header-wrap {
     padding: 3em 0px;
     line-height: 1;
@@ -4894,7 +5216,7 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 148, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 306, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios .entry-header .entry-header-wrap .entry-title {
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -4903,11 +5225,11 @@ F. Media Queries
     font-weight: 300;
     color: #222222;
   }
-  /* line 159, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 317, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios .entry-content {
     padding: 2em 0px;
   }
-  /* line 161, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 319, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios .entry-content.background-image {
     background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg1.jpg");
     background-attachment: fixed;
@@ -4915,7 +5237,7 @@ F. Media Queries
     background-repeat: no-repeat;
     background-size: cover;
   }
-  /* line 168, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 326, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios .entry-content .entry-content-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -4927,12 +5249,12 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 170, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 328, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios .entry-content .entry-content-wrap .infografia {
     color: #FFFFFF;
     padding: 1em 0px;
   }
-  /* line 173, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 331, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios .entry-content .entry-content-wrap .infografia ul {
     list-style: none;
     margin: 0px;
@@ -4941,7 +5263,7 @@ F. Media Queries
     display: flex;
     justify-content: space-between;
   }
-  /* line 180, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 338, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-beneficiarios .entry-content .entry-content-wrap .infografia ul li {
     padding: 1em;
     text-align: center;
@@ -4950,18 +5272,18 @@ F. Media Queries
     font-size: 30px;
     font-size: 1.5rem;
   }
-  /* line 197, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 355, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes {
     margin-bottom: 8em;
   }
-  /* line 199, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 357, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes .entry-header {
     padding-bottom: 0px;
     margin-bottom: 0px;
     width: 100%;
     height: auto;
   }
-  /* line 204, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 362, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes .entry-header .entry-header-wrap {
     padding: 3em 0px;
     line-height: 1;
@@ -4975,7 +5297,7 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 212, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 370, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes .entry-header .entry-header-wrap .entry-title {
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -4985,19 +5307,19 @@ F. Media Queries
     font-weight: 300;
     color: #222222;
   }
-  /* line 224, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 382, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content {
     padding: 4em;
   }
-  /* line 226, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 384, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content.background-image {
-    background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg7.jpg");
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg8.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  /* line 233, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 391, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content .entry-content-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -5009,12 +5331,12 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 235, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 393, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content .entry-content-wrap .infografia {
     color: #FFFFFF;
     padding: 1em 0px;
   }
-  /* line 238, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 396, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content .entry-content-wrap .infografia ul {
     list-style: none;
     margin: 0px;
@@ -5023,7 +5345,7 @@ F. Media Queries
     display: flex;
     justify-content: space-between;
   }
-  /* line 245, sass/f-media-queries/_90mq-temp-parts.scss */
+  /* line 403, sass/f-media-queries/_90mq-temp-parts.scss */
   .page-template-page-canvasfree .page-galeria-de-imagenes .entry-content .entry-content-wrap .infografia ul li {
     padding: 1em;
     text-align: center;
@@ -5031,6 +5353,107 @@ F. Media Queries
     text-shadow: 1px 1px 0px #222222;
     font-size: 30px;
     font-size: 1.5rem;
+  }
+  /* line 421, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .image-solid4 {
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* line 429, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-header {
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  /* line 433, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-header .entry-header-wrap {
+    padding-bottom: 0px;
+    line-height: 1;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .page-template-page-canvasfree .page-socios .entry-header .entry-header-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 442, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-header .entry-header-wrap .entry-title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+    right: 0.5em;
+    bottom: 1em;
+    font-size: 40px;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #222222;
+  }
+  /* line 456, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-content {
+    padding: 2em 0px;
+  }
+  /* line 458, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-content .entry-content-wrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .page-template-page-canvasfree .page-socios .entry-content .entry-content-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 461, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-content .entry-content-wrap .ulsocios {
+    margin-left: 1em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 466, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-content .entry-content-wrap .ulsocios .lisocios {
+    width: 31%;
+    padding: 0px;
+  }
+  /* line 469, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-content .entry-content-wrap .ulsocios .lisocios img {
+    width: 100%;
+  }
+  /* line 472, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-content .entry-content-wrap .ulsocios .lisocios h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  /* line 481, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-content .entry-content-wrap .ulsocios .lisocios p {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    margin-bottom: 0.5em;
+    text-align: justify;
+    margin: 0px 5px 1em;
+  }
+  /* line 488, sass/f-media-queries/_90mq-temp-parts.scss */
+  .page-template-page-canvasfree .page-socios .entry-content .entry-content-wrap .ulsocios .lisocios ul, .page-template-page-canvasfree .page-socios .entry-content .entry-content-wrap .ulsocios .lisocios ol {
+    margin-bottom: 1em;
   }
 }
 @media (min-width: 320px) {

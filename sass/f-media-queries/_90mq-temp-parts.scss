@@ -10,6 +10,107 @@
     #content {
       padding-bottom: 0px !important;
     }
+
+    // COLUMNS
+    // 1 COLUMNS
+    .columntxt1 {
+      column-count: 1;
+      /* column-gap: 3em;
+      column-rule-width: 1px;
+      column-rule-style: solid;
+      column-rule-color: $lightsilver; */
+      // column-width: 300px;
+      h2 {
+        text-transform: uppercase;
+        font-weight: $bold;
+        padding-top: 10px;
+        margin-bottom: 1em;
+        color: $paleblack;
+        font-size: 22px;
+        font-size: 1.375rem;
+      } //h2
+      p {
+        font-size: 15px;
+        font-size: 0.9375rem;
+        margin-bottom: 0.5em;
+      } //p
+    } //.columntxt1
+
+    // 2 COLUMNS
+    .columntxt2 {
+      column-count: 2;
+      column-gap: 3em;
+      column-rule-width: 1px;
+      column-rule-style: solid;
+      column-rule-color: $lightsilver;
+      // column-width: 300px;
+      h2 {
+       column-span: all;
+       text-transform: uppercase;
+       font-weight: $bold;
+       padding-top: 10px;
+       margin-bottom: 2em;
+       font-size: 18px;
+       font-size: 1.125rem;
+       color: $paleblack;
+       text-align: left;
+       letter-spacing: 1.3;
+      } //h2
+      h3 {
+        text-transform: uppercase;
+        font-weight: $bold;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-size: 1.125rem;
+      }
+      p {
+        font-size: 15px;
+        font-size: 0.9375rem;
+        margin-bottom: 0.5em;
+      } //p
+      img {
+        margin-bottom: 1em;
+      } //img
+    } //.columntxt2
+
+    // 3 COLUMNS
+    .columntxt3 {
+      column-count: 3;
+      column-gap: 3em;
+      column-rule-width: 1px;
+      column-rule-style: solid;
+      column-rule-color: $lightsilver;
+      // column-width: 300px;
+      h2 {
+        column-span: all;
+        text-transform: uppercase;
+        font-weight: $bold;
+        padding-top: 10px;
+        margin-bottom: 2em;
+        font-size: 18px;
+        font-size: 1.125rem;
+        color: $paleblack;
+        text-align: center;
+      } //h2
+      h3 {
+        text-transform: uppercase;
+        font-weight: $bold;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-size: 1.125rem;
+      } //h3
+      p {
+        font-size: 15px;
+        font-size: 0.9375rem;
+        margin-bottom: 0.5em;
+      } //p
+      img {
+        margin-bottom: 1em;
+      } //img
+    } //.columntxt3
+
     // CANVAS part
     .page-canvas {
       // ENTRY HEADER
@@ -24,7 +125,6 @@
           position: relative;
           .featured-image {
             img {
-
             } //img
           } //.featured-image
           .entry-title {
@@ -45,43 +145,6 @@
         padding: 2em 0px;
         .entry-content-wrap {
           @include container();
-
-          // 2 COLUMNS
-          .columntxt2 {
-            column-count: 2;
-            column-gap: 3em;
-            column-rule-width: 1px;
-            column-rule-style: solid;
-            column-rule-color: $lightsilver;
-            // column-width: 300px;
-            h2 {
-              //column-span: all;
-            } //h2
-            p {
-              font-size: 15px;
-              font-size: 0.9375rem;
-              margin-bottom: 0.5em;
-            } //p
-          } //.columntxt
-
-          // 3 COLUMNS
-          .columntxt3 {
-            column-count: 3;
-            column-gap: 3em;
-            column-rule-width: 1px;
-            column-rule-style: solid;
-            column-rule-color: $lightsilver;
-            // column-width: 300px;
-            h2 {
-              //column-span: all;
-            } //h2
-            p {
-              font-size: 15px;
-              font-size: 0.9375rem;
-              margin-bottom: 0.5em;
-            } //p
-          } //.columntxt
-
           // Generic
           ul {
             margin-left: 1em;
@@ -90,44 +153,139 @@
         } //.entry-content-wrap
       } //.entry-content
 
-      .image-solid1 {
-        margin: 0px;
-        height: 300px;
-        width: 100%;
-        @include backImage($bgimg1);
-      } //.image-solid1
+    // IMAGE SOLID
+    .image-solid1 {
+      margin: 0px;
+      height: 300px;
+      width: 100%;
+      @include backImage($bgimg1);
+    } //.image-solid1
+    .image-solid2 {
+      margin: 0px;
+      height: 300px;
+      width: 100%;
+      @include backImage($bgimg2);
+    } //.image-solid2
+    .image-solid3 {
+      margin: 0px;
+      height: 300px;
+      width: 100%;
+      @include backImage($bgimg3);
+    } //.image-solid3
+    .image-solid4 {
+      margin: 0px;
+      height: 300px;
+      width: 100%;
+      @include backImage($bgimg4);
+    } //.image-solid4
+    .image-solid5 {
+      margin: 0px;
+      height: 300px;
+      width: 100%;
+      @include backImage($bgimg5);
+    } //.image-solid5
+    .image-solid6 {
+      margin: 0px;
+      height: 300px;
+      width: 100%;
+      @include backImage($bgimg6);
+    } //.image-solid5S
+
+
+    } //.page-canvas
+
+    // PROGRAMA part
+    .page-programa {
       .image-solid2 {
         margin: 0px;
         height: 300px;
         width: 100%;
-        @include backImage($bgimg2);
+        @include backImage($bgimg3);
       } //.image-solid2
       .image-solid3 {
         margin: 0px;
         height: 300px;
         width: 100%;
-        @include backImage($bgimg3);
-      } //.image-solid3
-      .image-solid4 {
-        margin: 0px;
-        height: 300px;
-        width: 100%;
         @include backImage($bgimg4);
-      } //.image-solid4
-      .image-solid5 {
-        margin: 0px;
-        height: 300px;
+      } //.image-solid3
+      // ENTRY HEADER
+      .entry-header {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
         width: 100%;
-        @include backImage($bgimg5);
-      } //.image-solid5
-      .image-solid6 {
-        margin: 0px;
-        height: 300px;
-        width: 100%;
-        @include backImage($bgimg6);
-      } //.image-solid5
-
-    } //.page-canvas
+        height: auto;
+        @include single-text-shadow(1px, 1px, 0px, false, $paleblack);
+        .entry-header-wrap {
+          padding: 3em 0px 0px;
+          line-height: 1;
+          position: relative;
+          @include container();
+          .featured-image {
+            img {
+            } //img
+          } //.featured-image
+          .title-subtitle { //div
+            position: absolute;
+            bottom: 1em;
+            right: 1em;
+            width: 70%;
+            .entry-title {
+              text-align: right;
+              margin-bottom: 0px;
+              padding-bottom: 0px;
+              font-size: 40px;
+              font-size: 2.5rem;
+              color: $white;
+              @include single-text-shadow(1px, 1px, 0px, false, $paleblack);
+            } //.entry-title
+            .entry-subtitle {
+              color: $white;
+              text-align: right;
+              margin: 0px;
+              padding: 0px;
+              line-height: 1.3;
+              text-transform: uppercase;
+            }
+          } //.title-subtitle
+        } //.entry-header-wrap
+      } //.entry-header
+      // ENTRY CONTENT
+      .entry-content {
+        padding: 2em 0px;
+        &.background-image {
+          background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg1.jpg");
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        } //&.background-image
+        .entry-content-wrap {
+          @include container();
+          .infografia {
+            color: $white;
+            padding: 1em 0px;
+            ul {
+              list-style: none;
+              margin: 0px;
+              padding: 0px;
+              background-color: rgba($black, 0.3);
+              display: flex;
+              justify-content: space-between;
+              li {
+                padding: 1em;
+                text-align: center;
+                text-transform: uppercase;
+                @include single-text-shadow(1px, 1px, 0px, false, $paleblack);
+                font-size: 30px;
+                font-size: 1.5rem;
+                // display: inline-block;
+              } //li
+            } //ul
+          } //.infografia
+        } //.entry-content-wrap
+      } //.entry-content
+      margin-bottom: 8em;
+    } //.page-programa
 
     // BENEFICIARIOS part
     .page-beneficiarios {
@@ -224,7 +382,7 @@
       .entry-content {
         padding: 4em;
         &.background-image {
-          background-image: url("http://chaco.mariposamundial.com/wp-content/themes/granchaco/assets/images/bg/bg7.jpg");
+          background-image: url("http://chacosustentable.org/wp-content/themes/granchaco/assets/images/bg/bg8.jpg");
           background-attachment: fixed;
           background-position: center;
           background-repeat: no-repeat;
@@ -257,6 +415,87 @@
       } //.entry-content
       margin-bottom: 8em;
     } //.page-galeria-de-fotos
+
+    // SOCIOS part
+    .page-socios {
+      .image-solid4 {
+        margin: 0px;
+        height: 300px;
+        width: 100%;
+        @include backImage($bgimg4);
+      } //.image-solid4
+
+      // ENTRY HEADER
+      .entry-header {
+        padding-bottom: 0px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        .entry-header-wrap {
+          padding-bottom: 0px;
+          line-height: 1;
+          @include container();
+          position: relative;
+          .featured-image {
+            img {
+            } //img
+          } //.featured-image
+          .entry-title {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            position: absolute;
+            right: 0.5em;
+            bottom: 1em;
+            font-size: 40px;
+            font-size: 2.5rem;
+            color: $white;
+            @include single-text-shadow(1px, 1px, 0px, false, $paleblack);
+          } //.entry-title
+        } //.entry-header-wrap
+      } //.entry-header
+      // ENTRY CONTENT
+      .entry-content {
+        padding: 2em 0px;
+        .entry-content-wrap {
+          @include container();
+          // Generic
+          .ulsocios {
+            margin-left: 1em;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            .lisocios {
+              width: 31%;
+              padding: 0px;
+              img {
+                width: 100%;
+              }
+              h3 {
+                text-transform: uppercase;
+                font-weight: $bold;
+                padding-top: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-size: 1.125rem;
+                text-align: center;
+              } //h3
+              p {
+                font-size: 15px;
+                font-size: 0.9375rem;
+                margin-bottom: 0.5em;
+                text-align: justify;
+                margin: 0px 5px 1em;
+              } //p
+              ul, ol {
+                margin-bottom: 1em;
+              }
+
+            } //.lisocios
+          } //.ulsocios
+        } //.entry-content-wrap
+      } //.entry-content
+
+
+    } //.page-socios
 
   } //.page-template-page-canvasfree
 } //breakpoint($movil) 20em 320px

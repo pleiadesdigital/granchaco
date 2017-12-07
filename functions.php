@@ -15,10 +15,9 @@ function pleiadesmoon_setup() {
 	add_theme_support('title-tag');
 	// POST THUMBNAILS
 	add_theme_support('post-thumbnails');
-	// add_image_size('granchaco-featured-image', 2000, 1200, true);
 	add_image_size('granchaco-featured-image', 1024, 480, true);
-	add_image_size('granchaco-thumbnail-avatar', 100, 100, true);
-	add_image_size('granchaco-blog-thumb', 480, 715, true);
+	add_image_size('granchaco-fp-noticias', 310, 234, true);
+	add_image_size('granchaco-fp-testimonios', 960, 300, true);
 	// Set the default content width.
 	$GLOBALS['content_width'] = 525;
 	// NAVIGATION
