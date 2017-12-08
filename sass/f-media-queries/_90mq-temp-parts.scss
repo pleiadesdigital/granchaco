@@ -493,9 +493,106 @@
           } //.ulsocios
         } //.entry-content-wrap
       } //.entry-content
-
-
     } //.page-socios
+
+    // CONTACTO part
+    .page-contacto {
+      .image-solid1 {
+        margin: 0px;
+        height: 300px;
+        width: 100%;
+        @include backImage($bgimg1);
+      } //.image-solid4
+
+      // ENTRY HEADER
+      .entry-header {
+        padding-bottom: 0px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        .entry-header-wrap {
+          padding-bottom: 0px;
+          line-height: 1;
+          @include container();
+          position: relative;
+          .featured-image {
+            img {
+            } //img
+          } //.featured-image
+          .entry-title {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            position: absolute;
+            right: 0.5em;
+            bottom: 1em;
+            font-size: 40px;
+            font-size: 2.5rem;
+            color: $white;
+            @include single-text-shadow(1px, 1px, 0px, false, $paleblack);
+          } //.entry-title
+        } //.entry-header-wrap
+      } //.entry-header
+      // ENTRY CONTENT
+      .entry-content {
+        padding: 2em 0px;
+        .entry-content-wrap {
+          @include container();
+          .contact-form {
+            @include span(7 of 12);
+            .wpcf7-form {
+              display: block;
+              max-width: 600px;
+              margin: 0px;
+              // PLACEHOLDER
+              input::placeholder,
+              textarea::placeholder {
+                color: $midgrey;
+                font-size: 14px;
+                font-size: 0.875rem;
+                text-transform: uppercase;
+                font-weight: $light;
+              }
+              // SUBMIT BUTTON
+              input[type=submit] {
+                color: $white;
+                width: 120px;
+                text-transform: uppercase;
+                background-color: darken($palecarbon, 20%);
+                @include single-transition(all, 0.3s, false, false);
+                &:hover {
+                  background-color: darken($icongreen, 10%);
+                }
+              } //input[type=submit]
+
+              // ERRORS
+              .wpcf7-validation-errors {
+                border: 1px dotted $darkgreen;
+              }
+              .wpcf7-response-output {
+                margin: 2em 0px 1em;
+              }
+              span.wpcf7-not-valid-tip {
+                color: $red;
+              }
+            } //.wpcf7-form
+          } //.contact-form
+          .contact-address {
+            @include span(5 of 12 at 8);
+            padding: 0px 0px 0px 2em;
+            .widget-title {
+              text-transform: uppercase;
+              font-weight: $bold;
+              padding-top: 0px;
+              margin-bottom: 1em;
+              font-size: 18px;
+              font-size: 1.125rem;
+              color: $paleblack;
+              text-align: left;
+              letter-spacing: 1.3;
+            } //.widget-title
+          } //.contact-adress
+        } //.entry-content-wrap
+      } //.entry-content
+    } //.page-contacto
 
   } //.page-template-page-canvasfree
 } //breakpoint($movil) 20em 320px

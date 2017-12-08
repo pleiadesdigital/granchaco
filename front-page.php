@@ -65,29 +65,26 @@
 		<section class="fp-noticias">
 			<div class="fp-noticias-wrap">
 				<h2 class="fp-noticias-title">Noticias</h2>
+				<?php
+					$args = array(
+						'post_type'				=> 'post',
+						'category_name'		=> 'noticias',
+						'post_per_page'		=> 3,
+					);
+					$query = new WP_Query($args);
+				?>
 				<ul class="ul-noticias">
+					<?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
 					<li class="li-noticia">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog1.jpg">
-						<span class="noticias-metadata">30.11.2017</span>
-						<h3>Winter Hideaway – Creating a cosy home for the festive season</h3>
-						<p>How to create a festive winter hideaway, with our top shopping list to help you get the look in your own home.</p>
-						<a href="#" class="more-link">Leer más</a>
+						<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('granchaco-fp-noticias'); ?></a>
+						<span class="noticias-metadata"><?php echo get_the_date(); ?></span>
+						<a href="<?php the_permalink(); ?>"><?php the_title('<h3>', '</h3>'); ?></a>
+						<?php the_excerpt(); ?>
+						<a href="<?php the_permalink(); ?>" class="more-link">Leer más</a>
 					</li>
-					<li class="li-noticia">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog2.jpg">
-						<span class="noticias-metadata">30.11.2017</span>
-						<h3>Winter Hideaway – Creating a cosy home for the festive season</h3>
-						<p>How to create a festive winter hideaway, with our top shopping list to help you get the look in your own home.</p>
-						<a href="#" class="more-link">Leer más</a>
-					</li>
-					<li class="li-noticia">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog3.jpg">
-						<span class="noticias-metadata">30.11.2017</span>
-						<h3>Winter Hideaway – Creating a cosy home for the festive season</h3>
-						<p>How to create a festive winter hideaway, with our top shopping list to help you get the look in your own home.</p>
-						<a href="#" class="more-link">Leer más</a>
-					</li>
+				<?php endwhile; endif; ?>
 				</ul>
+				<?php wp_reset_postdata(); ?>
 			</div><!-- class="fp-noticias-wrap" -->
 		</section><!-- class="fp-noticias" -->
 

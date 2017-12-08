@@ -4,20 +4,72 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
 				"padd",
 				"padding"
 			],
 			[
-				"marg",
-				"margin-top"
+				"pad",
+				"padding"
 			],
 			[
-				"pad",
-				"padding-bottom"
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"list-st",
+				"list-style"
+			],
+			[
+				"wp_reset_",
+				"wp_reset_postdata"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"wp_str",
+				"wp_strip_all_tags"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"MAR",
+				"margin-right"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"get_tem",
+				"get_template_directory_uri"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"get_the_post",
+				"get_the_post_thumbnail"
 			],
 			[
 				"get_the_pos",
@@ -52,14 +104,6 @@
 				"list-style"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
-				"text-",
-				"text-transform"
-			],
-			[
 				"get_templ",
 				"get_template_directory_uri"
 			],
@@ -76,20 +120,12 @@
 				"width"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"bor",
 				"border"
 			],
 			[
 				"paddi",
 				"padding-top"
-			],
-			[
-				"font-",
-				"font-size"
 			],
 			[
 				"bac",
@@ -118,10 +154,6 @@
 			[
 				"font-s",
 				"font-style"
-			],
-			[
-				"get_the_post",
-				"get_the_post_thumbnail_url"
 			],
 			[
 				"wp_get_atta",
@@ -162,10 +194,6 @@
 			[
 				"im",
 				"important"
-			],
-			[
-				"backgr",
-				"background-size"
 			],
 			[
 				"the_post",
@@ -239,33 +267,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "template-parts/page/content-canvas.php",
-			"settings":
-			{
-				"buffer_size": 1104,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/h-variables/_mixins.scss",
-			"settings":
-			{
-				"buffer_size": 540,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/f-media-queries/_90mq-temp-parts.scss",
-			"settings":
-			{
-				"buffer_size": 2267,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -274,13 +275,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "pack",
+		"height": 392.0,
+		"last_filter": "mater",
 		"selected_items":
 		[
 			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
 				"pack",
-				"Package Control: Remove Package"
+				"Package Control: Install Package"
 			],
 			[
 				"i",
@@ -299,7 +304,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 453.0
+		"width": 476.0
 	},
 	"console":
 	{
@@ -320,18 +325,40 @@
 	"expanded_folders":
 	[
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/h-variables"
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts"
 	],
 	"file_history":
 	[
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/home.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/post/content.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/front-page.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries/_8mq-frontpage.scss",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/inc/template-tags.php",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/functions.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/inc/template-functions.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-el-programa.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/page-canvasfree.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/h-variables/_mixins.scss",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries/_90mq-temp-parts.scss",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-socios.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-canvas.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/h-variables/_colors.scss",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/h-variables/_fonts.scss",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-page.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-granchaco.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-galeria-de-imagenes.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-beneficiarios.php",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Fluidvision.tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Fade to Grey.tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Clouds.tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Espresso.tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Eiffel.tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Solarized (Light).tmTheme",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-galerias.php",
+		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-canvasalt.php",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries/_91mq-misc.scss",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Lowlight.tmTheme",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries/_media-queries.scss",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/page-canvasfree.php",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/page/content-page.php",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/header.php",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries/_2mq-header.scss",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/c-elements/_links.scss",
@@ -340,14 +367,11 @@
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries/_4mq-navigation.scss",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/z-Sandbox.php",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/z-Sandbox.scss",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/front-page.php",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries/_8mq-frontpage.scss",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/slider/js/slider-custom.js",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/iLife 05.tmTheme",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/f-media-queries/_3mq-footer.scss",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Happy happy joy joy 2.tmTheme",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/fake.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Fade to Grey.tmTheme",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Pastie.tmTheme",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Mono Industrial.tmTheme",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Monokai Bright.tmTheme",
@@ -359,7 +383,6 @@
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/footer.php",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/header/site-branding.php",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/c-elements/_typography.scss",
-		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/h-variables/_fonts.scss",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/sass/b-layout/_base.scss",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/template-parts/header/header-image.php",
 		"/Users/ronyortiz/Sites/sites2017/granchaco/wp-content/themes/granchaco/inc/custom-header.php",
@@ -409,7 +432,6 @@
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/index.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_media-queries.scss",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/page/content-front-page.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Eiffel.tmTheme",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Solarized (Dark).tmTheme",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/LastNight.tmTheme",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/krTheme.tmTheme",
@@ -434,30 +456,11 @@
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/front-page.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_91mq-misc.scss",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_8mq-frontpage.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_3mq-footer.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_4mq-navigation.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/h-variables/_mixins.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/js/app.js",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/d-navigation/_main-navigation.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_2mq-header.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/h-variables/_colors.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/h-variables/_fonts.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/g-theme-fallbacks/_customizer.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/zSandBox",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/functions.php",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/c-elements/_typography.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/js/global.js",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Freckle.tmTheme",
-		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/sass/b-layout/_base.scss",
-		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/package.json",
-		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/gulpfile.js",
-		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/.gitignore",
-		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/404.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Fluidvision.tmTheme"
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_3mq-footer.scss"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -474,6 +477,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"{\n",
+			"\t\t\t\n",
+			"localhost",
 			"$palewhite",
 			"palewhite",
 			"widget",
@@ -496,612 +502,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "template-parts/page/content-canvas.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								806,
-								806
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"bs_sintax": "php",
-							"buffer_scroll_name": "e1bebcc8",
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/h-variables/_mixins.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 540,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								534,
-								534
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										425,
-										426
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										324,
-										325
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										538,
-										539
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
-										"region.greenish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										437,
-										438
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"bs_sintax": "scss",
-							"buffer_scroll_name": "a946390e",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "sass/f-media-queries/_90mq-temp-parts.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2267,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1805,
-								1805
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1805,
-										1806
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1797,
-										1798
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1805,
-										1806
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1797,
-										1798
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"bs_sintax": "scss",
-							"buffer_scroll_name": "2e7f61d7",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 766.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1122,18 +524,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.569754862598,
 			1.0
 		],
 		"rows":

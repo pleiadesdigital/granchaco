@@ -8,6 +8,8 @@
     $content_part = 'el-programa';
   } elseif (is_page('socios')) {
     $content_part = 'socios';
+  } elseif (is_page('contacto')) {
+    $content_part = 'contacto';
   } elseif (is_page('galeria-de-imagenes') || $post->post_parent == 100) {
     $content_part = 'galeria-de-imagenes';
   } else {
